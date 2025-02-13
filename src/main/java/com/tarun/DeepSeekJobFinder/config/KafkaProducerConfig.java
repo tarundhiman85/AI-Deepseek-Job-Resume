@@ -15,7 +15,6 @@ import java.util.Map;
 public class KafkaProducerConfig {
     @Bean
     public Map<String, Object> producerConfigs() {
-        // Bootstrap servers, key & value serializers, etc.
         Map<String, Object> props = new HashMap<>();
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092"); // or your Kafka server
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
