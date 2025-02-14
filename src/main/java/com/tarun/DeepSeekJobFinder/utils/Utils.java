@@ -166,6 +166,93 @@ Profiles
 🔗 CodeChef: https://www.codechef.com/users/stark2077
 
  """;
+        } else if("Karthik".equalsIgnoreCase(name)) {
+            return """
+                    HKarthik
+                     karthik63254@gmail.com | 📞 +91 9810971369
+                    
+                          EDUCATION
+                          GL Bajaj Institute of Technology and Management
+                          B. Tech in Computer Science (2020-2024) | Greater Noida, UP
+                          CGPA: 8.5
+                    
+                          Assisi Convent School
+                          Intermediate (PCM) | 2020 | Noida, UP
+                          Percentage: 90.8%
+                    
+                          High School | 2018 | Noida, UP
+                          Percentage: 90.33%
+                    
+                          LINKS
+                          Leetcode: https://leetcode.com/HK/
+                          CodeChef: https://www.codechef.com/users/karthik6325
+                          CodeForces: https://codeforces.com/profile/karthik
+                          GitHub: https://github.com/karthik6325
+                          LinkedIn: https://www.linkedin.com/in/karthik-h-3b6332192/
+                          Portfolio: https://karthikhportfolio.netlify.app/
+                          COURSEWORK
+                          Object-Oriented Programming
+                          Operating Systems
+                          Database Management System
+                          Computer Networks
+                          Data Structures and Algorithms
+                          SKILLS
+                          Programming Languages:
+                          Python
+                          C/C++
+                          JavaScript
+                          Frameworks/Libraries:
+                          .NET Core
+                          Node.js
+                          Express.js
+                          React.js
+                          Databases:
+                          MongoDB
+                          PostgreSQL
+                          MySQL
+                          Redis
+                          Language Proficiency:
+                          English
+                          Hindi
+                          Tamil
+                          EXPERIENCE
+                          BYTERIDGE | Software Development Engineer I
+                          July 2024 - Present | Remote
+                    
+                          Developed Hub, a centralized platform for employee performance evaluations and mentoring, featuring a modular design for scalability.
+                          Automated KPI submission and review processes using .NET Core, reducing evaluation time by 80% and achieving $20,000 in annual cost savings.
+                          Worked on back-end development with PostgreSQL, implementing Graph APIs, database seeding, and migrations, while designing data models for optimal performance.
+                          Enabled mentor requests and structured performance tracking, improving productivity by 15-20%.
+                          BYTERIDGE | Software Developer Intern
+                          Oct 2023 - Dec 2023 | Remote
+                    
+                          Worked on Scrum Poker Planning project involving full-stack development.
+                          Integrated Redis as a caching mechanism with MongoDB to optimize the application’s memory usage.
+                          Implemented admin controls, enhancing overall usability.
+                          Used Socket.io for real-time voting, task updates, and participant management in a room. Also used Next.js for efficient server-side rendering.
+                          Integrated Jira into the Scrum Poker Planning using OAuth authentication, allowing users to fetch and modify project details.
+                          Developed proficiency in Next.js, Express, Node.js, React, TypeScript, MongoDB, Redis, and Tailwind CSS.
+                          PROJECTS
+                          HEALTHAI - DIET RECOMMENDATION
+                          Developed a diet recommendation system using spaCy, Python, and pandas.
+                          Utilized k-means clustering to categorize recipes into breakfast, lunch, and dinner.
+                          Implemented parallel processing for efficient computation.
+                          Integrated K-Nearest Neighbors (KNN) model for predicting recipes based on diet preference for weight gain, weight loss, and maintenance.
+                          Implemented an NLP-based diet recommendation system by comparing recipes with recommended ingredients for specific health conditions.
+                          Used Flask to create API endpoints for diet recommendations and developed a MERN stack-based UI.
+                          Project Link: https://github.com/karthik6325/Diet-recommendation
+                          FIND-DONOR
+                          Developed a MERN web application that connects blood donors with those in need.
+                          Users can create accounts and register as donors or seekers, storing their information in a database.
+                          When seekers search for donors based on city and blood type, the application displays a list of matching donors.
+                          Technologies used: HTML, CSS, JavaScript, React, Express, MongoDB.
+                          Project Link: https://github.com/karthik6325/FindDonor
+                          ACHIEVEMENTS
+                          Solved 800+ questions on LeetCode, 1700+ rated.
+                          3 stars on CodeChef (Max rating 1607).
+                          Codeforces rating 1171 (Max rating).
+                          Global Rank 1600 - Google Kickstart Round H 2022.
+                          Solved 1200+ questions on various coding platforms.""";
         } else {
             return "Resume not found for " + name;
         }
