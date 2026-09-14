@@ -109,4 +109,5 @@ Kafka bootstrap servers are currently set directly in `KafkaConsumerConfig` / `K
 
 ## License
 
-No license file is currently included in this repository.
+This project is licensed under the [MIT License](LICENSE) - see the file for details.
+
